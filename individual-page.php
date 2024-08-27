@@ -2,7 +2,11 @@
 <html lang="en"> 
 <head>
     <title>Andrew Morris Resume</title>
-    
+    <?php
+		$first_name="Andrew";
+		$last_name="Morris";	
+		$position="Certified Help Desk Technician";
+	?>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -36,12 +40,12 @@
 						    <div class="primary-info col-auto">
 							    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">
 									<?php 
-										echo "Andrew Morris"; 
+										echo $first_name. " " . $last_name; 
 									?>
 								</h1>
 							    <div class="title mb-3">
 									<?php 
-										echo"Cybersecurity Analyst"; 
+										echo $position; 
 									?>
 								</div>
 							    <ul class="list-unstyled">
@@ -61,7 +65,7 @@
 							    <ul class="resume-social list-unstyled">
 					                <li class="mb-3"><a class="text-link" href="https://www.linkedin.com/in/andrew-morris-b7856726a/" target="_blank"><span class="fa-container text-center me-2"><i class="fab fa-linkedin-in fa-fw"></i></span><?="linkedin.com/in/andrew-morris"?></a></li>
 					                <li class="mb-3"><a class="text-link" href="https://github.com/andrew-morris02" target="_blank"><span class="fa-container text-center me-2"><i class="fab fa-github-alt fa-fw"></i></span><?="github.com/andrew-morris02"?></a></li>
-					                <li><a class="text-link" href="https://twitter.com/andrew_morris02" target="_blank"><span class="fa-container text-center me-2"><i class="fas fa-globe"></i></span><?="twitter.com/andrew_morris02"?></a></li>
+					                <li><a class="text-link" href="https://x.com/andrew_morris02" target="_blank"><span class="fa-container text-center me-2"><i class="fas fa-globe"></i></span><?="twitter.com/andrew_morris02"?></a></li>
 							    </ul>
 						    </div><!--//secondary-info-->
 					    </div><!--//row-->
@@ -75,7 +79,7 @@
 				    <div class="resume-section-content">
 						<p class="mb-0">
 							<?php 
-								$summaryText = "I am a current senior year at Northern Kentucky University and majoring in Cybersecurity. Throughout my time in university, I have acquired specific skills seen in cyber defense operations including utilization of various SIEM systems, implementation of diverse security controls, and proficient in hardening systems to enhance security. As a student, I have no current professional experience in the information security environment. I have worked in warehouse roles and am eager to transition into the technology industry. I am aiming to apply acquired skills to enhance the security posture of an organization.";
+								$summaryText = "I am a current senior at Northern Kentucky University and majoring in Cybersecurity. Throughout my time in university, I have acquired specific skills seen in cyber defense operations including utilization of various SIEM systems, implementation of diverse security controls, and proficient in hardening systems to enhance security. As a student, I have no current professional experience in the information security environment. I have worked in warehouse roles and am eager to transition into the technology industry. I am aiming to apply acquired skills to enhance the security posture of an organization.";
 								
 								echo $summaryText;
 							?>
@@ -98,51 +102,67 @@
 										    <div class="d-flex flex-column flex-md-row">
 										        <h3 class="resume-position-title font-weight-bold mb-1">
 													<?php	
-														echo "Warehouse Selector";
+														echo "Help Desk Technician/System Administrator";
 													?>
 												</h3>
 										        <div class="resume-company-name ms-auto">
 													<?php
-														echo "Symga";
+														echo "System Support Associates LLC.";
 													?>
 												</div>
 										    </div><!--//row-->
 										    <div class="resume-position-time">
 												<?php
-													echo "2023 - Present";
+													echo "2024 - Present";
 												?>
 											</div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-										    <p><?="As a dedicated Warehouse Selector, I excel in the dynamic environment of distribution and fulfillment centers. With a keen eye for detail and a commitment to efficiency, I am responsible for accurately retrieving items from designated storage areas to fulfill customer orders and maintain inventory integrity."?></p>
+										    <p><?="Provide comprehensive IT support and system administration for a diverse range of clients, including government agencies, municipalities, healthcare organizations, non-profits, housing providers, law firms, and real estate firms. Manage and troubleshoot client networks, hardware, and software, ensuring optimal performance and security. Implement best practices in system configuration, user management, and incident resolution to meet the unique needs of each client."?></p>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
-										    <p><?='As a selector, our main focus is efficiency and accuracy while fulfilling orders. Some achievements I have had in my time as a selector are: ';?></p>
+										    <p><?='As a member of a Managed Service Provider, our main focus is ensuring efficiency and uptime while fulfilling client needs. Some achievements I have had in my time as a help desk technician are: ';?></p>
 										    <ul>
-											    <li><?="Achieving high levels of efficiency and picking accuracy."?></li>
-											    <li><?="Retaining an 85 percent rate on all orders."?></li>
-											    <li><?="Awarded bonuses often from weekly performances"?></li>
+											    <li><?="Provided exceptional technical support to a wide range of clients, ensuring timely and effective resolution of IT issues and maintaining strong client relationships."?></li>
+											    <li><?="Maintained 99.9% Server Uptime: Ensured high availability and reliability of client servers through proactive monitoring, timely updates, and preventive maintenance."?></li>
+											    <li><?="Rapidly diagnosed and resolved critical IT incidents, minimizing downtime and ensuring swift recovery for client systems."?></li>
+												<li><?="Implemented security best practices to harden systems, reducing vulnerabilities and enhancing the security posture of client environments."?></li>
+												<li><?="Facilitated the construction of networks for new or existing clients through installation and configuration of networking devices onsite"?></li>
 										    </ul>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
 										    <ul class="list-inline">
 											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">
 													<?php
-														echo"RFID Scanner";
+														echo"RMM Agents (ConnectWise)";
 													?>
 												</span></li>
 											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">
 													<?php
-														echo"RFID/NFC client";
+														echo"Windows Active Directory/Azure AD";
 													?>
 												</span></li>
 												<li class="list-inline-item">
 													<span class="badge bg-secondary badge-pill">
-														<?="NFC Scanner"?>
+														<?php
+															echo "Windows Powershell"
+														?>
 													</span>
 												</li>
 												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">
-													<?="Electric Pallet Truck"?>
+													<?php
+														echo "Cisco Meraki/Ubiquity Unifi Networks"
+													?>
 												</span></li>
-										    </ul>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">
+													<?php
+														echo "VMWare"
+													?>
+												</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">
+													<?php
+														echo "Webroot"
+													?>
+												</span></li>
+											</ul>
 									    </div><!--//resume-timeline-item-desc-->
 
 								    </article><!--//resume-timeline-item-->
@@ -151,26 +171,29 @@
 									    
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1"><?="Sortation Center Associate"
+										        <h3 class="resume-position-title font-weight-bold mb-1"><?="Debug Technician"
 												?></h3>
-										        <div class="resume-company-name ms-auto"><?="Amazon"?></div>
+										        <div class="resume-company-name ms-auto"><?="Jabil"?></div>
 										    </div><!--//row-->
 										    <div class="resume-position-time"><?="2023-2023"?></div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-										    <p><?="As a dedicated Sortation Center Associate at Amazon, I excelled in efficiently sorting, organizing, and routing packages within a high-paced supply chain environment. My commitment to precision ensured accurate scanning, labeling, and timely delivery of packages according to established routes. I collaborated seamlessly with my team to meet daily throughput targets and maintain optimal productivity levels. Proficient in operating conveyor systems, package handling equipment, and scanning devices, I contributed to a smooth and streamlined package flow. My attention to detail, strong work ethic, and adherence to safety protocols reflect my dedication to maintaining Amazon's customer-centric values."?></p>
+										    <p><?="In summary, my role at Jabil involved a comprehensive approach to server debugging, from analyzing log files and troubleshooting using Linux tools to replacing faulty components and addressing issues mostly with PCIe. This required a keen eye for detail and a systematic approach to ensure servers met required standards for AWS. "?></p>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements</h4>
-											<p><?="Being at several warehouses, I have gained more experience and skill in performing task and was able to bring that to Amazon. Some achievements I've obtained are: "?></p>
+											<p><?="As a Debug Technician, my role required an understanding of computer hardware and an ability to troubleshoot issues involving hardware components for AWS AI servers. Some achievements I've earned in my 3-month span at Jabil were: "?></p>
 											<ul>
-												<li><?="Exceeded Throughput Targets: Consistently surpassed daily throughput targets by 15%, effectively contributing to the rapid processing and timely delivery of packages. Recognized by supervisors for maintaining a high level of productivity during peak seasons"?></li>
-												<li><?="Safety Excellence: Recognized as a safety ambassador for promoting and adhering to safety protocols, resulting in a zero-accident record throughout my tenure. Trained new team members on safe package handling techniques and equipment operation."?></li>
-												<li><?="Zero Error Sorting: Achieved a flawless sorting record by accurately scanning and labeling over 10,000 packages without a single error, ensuring seamless package flow and reducing rework and delays in the delivery process."?></li>
+												<li><?="Worked with peers to come up with solutions to various problems and challenges that newer AWS AI server models would often come across. "?></li>
+												<li><?="Played a significant role on a team of Debug Technicians accounting for nearly 70% of all passing tests for new AWS AI models."?></li>
+												<li><?="Analyzed log files meticulously to pinpoint points of failure among new test failures."?></li>
+												<li><?="Identified and resolved issues related to data and network switches that were causing testing failures, significantly increasing the number of servers successfully passing tests."?></li>
 											</ul>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
 										    <ul class="list-inline">
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill"><?="RFID Scanner"?></span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill"><?="RFID/NFC Thin Client"?></span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill"><?="Powered Industrial Trucks (PIT)"?></span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill"><?="Linux CLI"?></span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill"><?="Secure Shell"?></span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill"><?="PCIe"?></span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill"><?="Hardware Components"?></span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill"><?="Network/Data Switches"?></span></li>
 										    </ul>
 									    </div><!--//resume-timeline-item-desc-->
 
@@ -180,19 +203,19 @@
 									    
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1"><?="Loader/Sweep"?></h3>
-										        <div class="resume-company-name ms-auto"><?="United Parcel Service"?></div>
+										        <h3 class="resume-position-title font-weight-bold mb-1"><?="Warehouse Selector"?></h3>
+										        <div class="resume-company-name ms-auto"><?="Sygma"?></div>
 										    </div><!--//row-->
 										    <div class="resume-position-time"><?"2021-2022"?></div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-										    <p><?="In my role as a Loader at United Parcel Service (UPS), I was responsible for efficiently loading packages onto delivery vehicles. I demonstrated a keen eye for detail, carefully scanning each package to ensure accurate sorting and routing. My commitment to accuracy and adherence to UPS's quality standards resulted in error-free loading processes, contributing to the on-time and accurate delivery of packages to customers. I worked seamlessly with the team to meet productivity targets while maintaining a focus on safety and package integrity. My dedication to the efficient and organized loading of packages exemplified UPS's commitment to reliable package delivery services."?></p>
+										    <p><?="As a warehouse selector at Sygma, I played a crucial role in the efficient operation of the company’s warehouse and distribution center. My key responsibilities included the accurate and time selection of products for orders, ensuring our customers received their orders correctly and on time. This role required physical agility, attention to detail and strong organizational skills. "?></p>
 											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
 										    <p><?="UPS often recognized and rewarded those who excelled in their tasks. In my time throughout UPS, I achieved many accomplishments including: "?></p>
 											<ul>
-												<li><?="Maintained good loading habits and percentages, which resulted in a promotion to sweep position."?></li>
-												<li><?="Offered a supervisor position within a year."?></li>
-												<li><?="Awarded different prizes as a result of my performance throughout peak season."?></li>
+												<li><?="Proposed locations for products throughout the warehouse that led to improvements in picking efficiency for warehouse selectors. "?></li>
+												<li><?="Maintained a minimum rate of 80 throughout my time as a selector, ensuring efficiency and ability to complete orders in a timely manner."?></li>
+												<li><?="Operated warehouse equipment including electric pallet jacks, forklifts, NFC and RFID scanners."?></li>
 											</ul>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
 										    <ul class="list-inline">
@@ -223,13 +246,13 @@
 								        <li class="mb-2">
 								            <div class="resume-skill-name"><?="Python"?></div>
 									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 								        </li>
 								        <li class="mb-2">
-								            <div class="resume-skill-name"><?="Java"?></div>
+								            <div class="resume-skill-name"><?="Routing and Switching"?></div>
 									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 								        </li>
 								        <li class="mb-2">
@@ -239,15 +262,15 @@
 											</div>
 								        </li>
 								        <li class="mb-2">
-								            <div class="resume-skill-name"><?="Governance Risk and Compliance (GRC)"?></div>
+								            <div class="resume-skill-name"><?="Network Segmentation"?></div>
 									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 								        </li>
 								        <li class="mb-2">
-								            <div class="resume-skill-name"><?="Network Security"?></div>
+								            <div class="resume-skill-name"><?="Identity and Access Management"?></div>
 									        <div class="progress resume-progress">
-											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 68%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 								        </li>
 							        </ul>
@@ -257,13 +280,13 @@
 						            <ul class="list-inline">
 							            <li class="list-inline-item"><span class="badge badge-light"><?="Governance Risk and Compliance"?></span></li>
 							            <li class="list-inline-item"><span class="badge badge-light"><?="Python"?></span></li>
-							            <li class="list-inline-item"><span class="badge badge-light"><?="Java"?></span></li>
-							            <li class="list-inline-item"><span class="badge badge-light"><?="Linux Terminal"?></span></li>
-							            <li class="list-inline-item"><span class="badge badge-light"><?="Networking/subnetting"?></span></li>
+							            <li class="list-inline-item"><span class="badge badge-light"><?="Azure AD/O365 Admin"?></span></li>
+							            <li class="list-inline-item"><span class="badge badge-light"><?="Linux Administration"?></span></li>
+							            <li class="list-inline-item"><span class="badge badge-light"><?="DHCP"?></span></li>
 							            <li class="list-inline-item"><span class="badge badge-light"><?="Vulnerability Management"?></span></li>
 							            <li class="list-inline-item"><span class="badge badge-light"><?="Network Security"?></span></li>
-							            <li class="list-inline-item"><span class="badge badge-light"><?="HTML"?></span></li>
-							            <li class="list-inline-item"><span class="badge badge-light"><?="Threat Intelligence"?></span></li>
+							            <li class="list-inline-item"><span class="badge badge-light"><?="Active Directory"?></span></li>
+							            <li class="list-inline-item"><span class="badge badge-light"><?="Windows Server"?></span></li>
 						            </ul>
 						        </div><!--//resume-skill-item-->
 						    </div><!--resume-section-content-->
@@ -275,12 +298,17 @@
 								    <li class="mb-2">
 								        <div class="resume-degree font-weight-bold"><?="B.S Cybersecurity"?></div>
 								        <div class="resume-degree-org"><?="Northern Kentucky University"?></div>
-								        <div class="resume-degree-time"><?="2020-2024"?></div>
+								        <div class="resume-degree-time"><?="2020-Current"?></div>
 								    </li>
 									<li class="mb-2">
 										<div class="resume-degree font-weight-bold"><?="Comptia Security Plus (SYO-601)"?></div>
 										<div class="resume-degree-org"><?="Comptia"?></div>
-										<div class="resume-degree-time"><?="2023"?></div>
+										<div class="resume-degree-time"><?="March 21, 2024"?></div>
+									</li>
+									<li class="mb-2">
+										<div class="resume-degree font-weight-bold"><?="MS-102 Microsoft Administrator Expert"?></div>
+										<div class="resume-degree-org"><?="Microsoft"?></div>
+										<div class="resume-degree-time"><?="July 14, 2024"?></div>
 									</li>
 							    </ul>
 						    </div>
@@ -307,7 +335,7 @@
 						    <div class="resume-section-content">
 							    <ul class="list-unstyled resume-lang-list">
 								    <li class="mb-2"><span class="resume-lang-name font-weight-bold">English</span> <small class="text-muted font-weight-normal">(Native)</small></li>
-								    <li><span class="resume-lang-name font-weight-bold">Spanish</span> <small class="text-muted font-weight-normal">(Non-Professional)</small></li>
+								    <li><span class="resume-lang-name font-weight-bold">Spanish</span> <small class="text-muted font-weight-normal">(Non-Professional/Beginner)</small></li>
 							    </ul>
 						    </div>
 					    </section><!--//language-section-->
@@ -316,8 +344,8 @@
 						    <div class="resume-section-content">
 							    <ul class="list-unstyled">
 								    <li class="mb-1"><?="Lifting weights"?></li>
-								    <li class="mb-1"><?="Playing/watching basketball"?></li>
-								    <li class="mb-1"><?="Investing/trading stocks"?></li>
+								    <li class="mb-1"><?="Playing/Watching Sports"?></li>
+								    <li class="mb-1"><?="Investing/Finances"?></li>
 							    </ul>
 						    </div>
 					    </section><!--//interests-section-->
@@ -332,7 +360,7 @@
 								<img src="assets/projects/project_1.pdf" alt="Project 1" class="card-img-top">
 								<div class="card-body">
 									<h5 class="card-title">Project 1</h5>
-									<p class="card-text"><?="This was a big risk management plan project for one of my Cybersecurity courses. Feel free to take a look!"?></p>
+									<p class="card-text"><?="Risk management plan project designed and written by myself!"?></p>
 									<a href="assets/projects/project_1.pdf" target="_blank">Go to project</a>
 								</div>
 							</div>
@@ -375,3 +403,4 @@
 
 </body>
 </html> 
+
