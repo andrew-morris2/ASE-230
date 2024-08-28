@@ -346,7 +346,7 @@
 							    <ul class="list-unstyled">
 								    <li class="mb-1"><?="Lifting weights"?></li>
 								    <li class="mb-1"><?="Playing/Watching Sports"?></li>
-								    <li class="mb-1"><?="Investing/Finances"?></li>
+								    <li class="mb-1"><?="Investing/Financing"?></li>
 							    </ul>
 						    </div>
 					    </section><!--//interests-section-->
@@ -358,17 +358,17 @@
 					<div class="row mt-4">
 						<div class="col-md-4">
 							<div class="card">
-								<img src="assets/projects/project_1.pdf" alt="Project 1" class="card-img-top">
+								<img src="assets/images/risk.jpeg" alt="Project 1" class="card-img-top" style="height: 200px;">
 								<div class="card-body">
 									<h5 class="card-title">Project 1</h5>
-									<p class="card-text"><?="Risk management plan project designed and written by myself!"?></p>
+									<p class="card-text"><?="Risk management plan I have designed and written"?></p>
 									<a href="assets/projects/project1.pdf" target="_blank">Go to project</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="card">
-								<img src="assets/images/hangman.jpg" alt="Project 2" class="card-img-top">
+								<img src="assets/images/python.jpg" alt="Project 2" class="card-img-top" style="height: 200px;">
 								<div class="card-body">
 									<h5 class="card-title">Project 2</h5>
 									<p class="card-text"><?="Final Group Project utilizing Python to perform a series of tasks"?></p>
@@ -378,10 +378,10 @@
 						</div>
 						<div class="col-md-4">
 							<div class="card">
-								<img src="assets/projects/project3/personal_website/img/me.jpeg" alt="Project 3" class="card-img-top">
+								<img src="assets/images/html.png" alt="Project 3" class="card-img-top" style="height: 190px;">
 								<div class="card-body">
 									<h5 class="card-title">Project 3</h5>
-									<p class="card-text"><?="New homepage I designed for System Support Associates (still in development)"?></p>
+									<p class="card-text"><?="New homepage designed for System Support Associates (still in development)"?></p>
 									<a href="assets/projects/project3/website.html" target="_blank">Go to project</a>
 								</div>
 							</div>
