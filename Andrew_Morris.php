@@ -5,7 +5,7 @@
     <?php
 		$first_name="Andrew";
 		$last_name="Morris";	
-		$position="Certified Help Desk Technician";
+		$position="Certified System Administrator";
 	?>
     <!-- Meta -->
     <meta charset="utf-8">
@@ -32,8 +32,8 @@
 	    <div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
 		    <header class="resume-header pt-4 pt-md-0">
 			    <div class="row">
-				    <div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
-				        <img class="picture" src="assets/images/profile_pic.jpg" alt="">
+				    <div class="col-block col-md-auto resume-picture-holder text-center text-md-start" style="height: 220px;">
+				        <img class="picture" style="max-height: 100%;" src="assets/images/me.jpg" alt="">
 				    </div><!--//col-->
 				    <div class="col">
 					    <div class="row p-4 justify-content-center justify-content-md-between">
@@ -79,7 +79,7 @@
 				    <div class="resume-section-content">
 						<p class="mb-0">
 							<?php 
-								$summaryText = "I am a current senior at Northern Kentucky University and majoring in Cybersecurity. Throughout my time in university, I have acquired specific skills seen in cyber defense operations including utilization of various SIEM systems, implementation of diverse security controls, and proficient in hardening systems to enhance security. As a student, I have no current professional experience in the information security environment. I have worked in warehouse roles and am eager to transition into the technology industry. I am aiming to apply acquired skills to enhance the security posture of an organization.";
+								$summaryText = "I am a current senior at Northern Kentucky University majoring in Cybersecurity. Throughout my time in university, I have acquired specific skills seen in cyber defense operations including utilization of various SIEM systems, implementation of diverse security controls, and proficiency in security best practices to enhance security. As a student, I have current professional experience in the IT industry as a help desk technician and system administrator for System Support Associates. I have put my knowledge acquired from various classes and projects into succesfully passing several certifications, including the CompTIA Security+ and seeking to apply acquired skills to enhance the overall security posture with a team of like-minded individuals.";
 								
 								echo $summaryText;
 							?>
@@ -113,7 +113,7 @@
 										    </div><!--//row-->
 										    <div class="resume-position-time">
 												<?php
-													echo "2024 - Present";
+													echo " May 2024 - Present";
 												?>
 											</div>
 									    </div><!--//resume-timeline-item-header-->
@@ -175,7 +175,7 @@
 												?></h3>
 										        <div class="resume-company-name ms-auto"><?="Jabil"?></div>
 										    </div><!--//row-->
-										    <div class="resume-position-time"><?="2023-2023"?></div>
+										    <div class="resume-position-time"><?="Sep 2023 - Dec 2023"?></div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
 										    <p><?="In summary, my role at Jabil involved a comprehensive approach to server debugging, from analyzing log files and troubleshooting using Linux tools to replacing faulty components and addressing issues mostly with PCIe. This required a keen eye for detail and a systematic approach to ensure servers met required standards for AWS. "?></p>
@@ -206,16 +206,16 @@
 										        <h3 class="resume-position-title font-weight-bold mb-1"><?="Warehouse Selector"?></h3>
 										        <div class="resume-company-name ms-auto"><?="Sygma"?></div>
 										    </div><!--//row-->
-										    <div class="resume-position-time"><?"2021-2022"?></div>
+										    <div class="resume-position-time"><?"May 2023 - Sep 2023"?></div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
 										    <p><?="As a warehouse selector at Sygma, I played a crucial role in the efficient operation of the company’s warehouse and distribution center. My key responsibilities included the accurate and time selection of products for orders, ensuring our customers received their orders correctly and on time. This role required physical agility, attention to detail and strong organizational skills. "?></p>
 											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
-										    <p><?="UPS often recognized and rewarded those who excelled in their tasks. In my time throughout UPS, I achieved many accomplishments including: "?></p>
+										    <p><?="Sygma often recognized and rewarded those who excelled in their tasks. In my time at Sygma, I achieved many accomplishments including: "?></p>
 											<ul>
 												<li><?="Proposed locations for products throughout the warehouse that led to improvements in picking efficiency for warehouse selectors. "?></li>
 												<li><?="Maintained a minimum rate of 80 throughout my time as a selector, ensuring efficiency and ability to complete orders in a timely manner."?></li>
-												<li><?="Operated warehouse equipment including electric pallet jacks, forklifts, NFC and RFID scanners."?></li>
+												<li><?="Recognized as a top selector for the month of June picking over 1,000 products/day"?></li>
 											</ul>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
 										    <ul class="list-inline">
@@ -262,7 +262,7 @@
 											</div>
 								        </li>
 								        <li class="mb-2">
-								            <div class="resume-skill-name"><?="Network Segmentation"?></div>
+								            <div class="resume-skill-name"><?="LAN/WAN Configuration"?></div>
 									        <div class="progress resume-progress">
 											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
@@ -281,12 +281,13 @@
 							            <li class="list-inline-item"><span class="badge badge-light"><?="Governance Risk and Compliance"?></span></li>
 							            <li class="list-inline-item"><span class="badge badge-light"><?="Python"?></span></li>
 							            <li class="list-inline-item"><span class="badge badge-light"><?="Azure AD/O365 Admin"?></span></li>
-							            <li class="list-inline-item"><span class="badge badge-light"><?="Linux Administration"?></span></li>
+							            <li class="list-inline-item"><span class="badge badge-light"><?="System Administration"?></span></li>
 							            <li class="list-inline-item"><span class="badge badge-light"><?="DHCP"?></span></li>
 							            <li class="list-inline-item"><span class="badge badge-light"><?="Vulnerability Management"?></span></li>
 							            <li class="list-inline-item"><span class="badge badge-light"><?="Network Security"?></span></li>
 							            <li class="list-inline-item"><span class="badge badge-light"><?="Active Directory"?></span></li>
 							            <li class="list-inline-item"><span class="badge badge-light"><?="Windows Server"?></span></li>
+										<li class="list-inline-item"><span class="badge badge-light"><?="Linux CLI"?></span></li>
 						            </ul>
 						        </div><!--//resume-skill-item-->
 						    </div><!--resume-section-content-->
@@ -361,7 +362,7 @@
 								<div class="card-body">
 									<h5 class="card-title">Project 1</h5>
 									<p class="card-text"><?="Risk management plan project designed and written by myself!"?></p>
-									<a href="assets/projects/project_1.pdf" target="_blank">Go to project</a>
+									<a href="assets/projects/project1.pdf" target="_blank">Go to project</a>
 								</div>
 							</div>
 						</div>
@@ -370,8 +371,8 @@
 								<img src="assets/images/hangman.jpg" alt="Project 2" class="card-img-top">
 								<div class="card-body">
 									<h5 class="card-title">Project 2</h5>
-									<p class="card-text"><?="This is a hangman game I have coded in my Object-Oriented Programming class. Feel free to run the code and guess the word!"?></p>
-									<a href="assets/projects/task3.java" target="_blank">Go to project</a>
+									<p class="card-text"><?="Final Group Project utilizing Python to perform a series of tasks"?></p>
+									<a href="assets/projects/project2.py" target="_blank">Go to project</a>
 								</div>
 							</div>
 						</div>
@@ -380,8 +381,8 @@
 								<img src="assets/projects/project3/personal_website/img/me.jpeg" alt="Project 3" class="card-img-top">
 								<div class="card-body">
 									<h5 class="card-title">Project 3</h5>
-									<p class="card-text"><?="This is my own personal website I created 2 years ago!"?></p>
-									<a href="assets/projects/project3/personal_website/index.html" target="_blank">Go to project</a>
+									<p class="card-text"><?="New homepage I designed for System Support Associates (still in development)"?></p>
+									<a href="assets/projects/project3/website.html" target="_blank">Go to project</a>
 								</div>
 							</div>
 						</div>
