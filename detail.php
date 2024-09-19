@@ -188,10 +188,350 @@ $resume_data = [
 	],
 
 	[
-		"member" => "Eric Turner"
+		"member" => "Eric Turner",
+		"title" => "Cyber Analyst",
+		"summary" => "Current student at Northern Kentucky University. Studying Cybersecurity and plan on graduating December 2025. I enjoy hiking, watching sports, and spending time with family. Always looking to furhter my knowledge in cybersecurity and planning to obtain my first certification.",
+		"picture_height" => "150px",
+		"contacts" => [
+			"phone" => "859446086-",
+			"email" => "ericbennetturner@hotmail.com",
+			"linkedin" => "https://www.linkedin.com/in/ericbennetturner/", //placeholder link, this is what is shown on the resume page, yours will likely be too large as well
+			"linkedin_link" => "https://www.linkedin.com/in/ericbennetturner/", //this is the actual link to my linkedin since the original causes issues with formatting
+			"github" => "https://github.com/e-turner1",
+			"social" => "https://x.com/e_turner_10"
+		],
+
+		"experience" => [
+			[
+				"job-title" => "Warehouse Associate",
+				"company" => "Amazon",
+				"date" => "January 2023-August 2024",
+				"description" => "Get customers orders ready to be sent out ensuring quality of the order, troubleshoot any issues that may arise with destination of package, collaborate and problem solve with a team to manage and finish workload.",
+				"achievements_summary" => "As an employee of Amazon, our main priority was making sure customers orders were fulfilled and delivered on time while doing so in the safest way possible.",
+				"accomplishments" => [
+					"Was recognized multiple times as safety employee of the month.",
+					"Building voted top 10 sortation center in the country.",
+					"Recognized for having highest scan rate in the building in a week."
+				],
+				"technologies" => [
+					"Windows Operating System",
+					"Zebra Scanning Technology",
+					"Webroot"
+				],
+			],
+
+			[
+				"job-title" => "Package Handler",
+				"company" => "United Parcel Service",
+				"date" => "August 2021-August 2022",
+				"description" => "Loaded, unloaded, and scanned packages into trailers resulting in high productivity per hour, responsible for giving out breaks to the team and always ensuring appropriate coverage.",
+				"achievements_summary" => "As a package handler at UPS, the work environment required a demand for hard work while being in unfavorable working conditions while ensuring that parcels were able to be delivered to their next destination.",
+				"accomplishments" => [
+					"Offered a position as a part-time supervisor along with a pay raise.",
+					"Worked as a team to tackle workload and our department had the highest volume in the building.",
+					"Recognized multiple times for practicing and following safety procedures."
+				],
+				"technologies" => [
+					"Windows OS",
+					"Zebra Technologies",
+					"Printers"
+				],
+			],
+
+			[
+				"job-title" => "Floor Installer",
+				"company" => "Faith Flooring",
+				"date" => "March 2020 - Sep 2020",
+				"description" => "Installed flooring, tore out carpet, vinyl, etc., sanded, and finished floors, shoe strip, and baseboards, gained expertise in installing and removing different kinds of flooring providing good quality.",
+				"achievements_summary" => "As a floor installer, our priority was to ensure quality in our work to make customers satisfied with results",
+				"accomplishments" => [
+					"Received multiple five start ratings for work that I have helped accomplished",
+					"Received multiple raises as a result of dependability, punctuality, and strong work ethic."
+				],
+				"technologies" => [
+					"MacOS",
+					"KrowID",
+					"iOS"
+				],
+			],
+		],
+
+		"skills" => [
+			"main_skills" => [
+				[
+					"name" => "Linux",
+					"value" => 70
+				],
+				[
+					"name" => "JavaScript",
+					"value" => 55
+				],
+				[
+					"name" => "HTML",
+					"value" => 75
+				],
+				[
+					"name" => "Python",
+					"value" => 65
+				],
+				[
+					"name" => "Identity and Access Management",
+					"value" => 68
+				],
+			],
+
+			"other_skills" => [
+				"Java",
+				"DevOps",
+				"C++",
+				"DHCP",
+				"Vulnerability Management",
+				"Secure Protocols",
+				"Windows Powershell",
+				"Balsamiq",
+				"Linux CLI"
+			],
+		],
+		
+		"education" => [
+			[
+				"degree" => "B.S Cybersecurity",
+				"institution" => "Northern Kentucky University",
+				"date" => "2021 - Current"
+			],
+
+		],
+	
+
+		"awards" => [
+			[
+				"award" => "Northern Kentucky Diversity Scholarship",
+				"description" => "Scholarship awarded to those of diverse backgrounds and good academic standing."
+			],
+			[
+				"award" => "Founder's Scholarship",
+				"description" => "Achieved by graduating high school with a 3.8 or higher GPA and maintaing a 3.0 cummulative GPA during collegiate career."
+			],
+		],
+
+		"languages" => [
+			[
+				"language" => "English",
+				"level" => "(Native)"
+			],
+			[
+				"language" => "Spanish",
+				"level" => "(Amateur)"
+			],
+		],
+
+		"interests" => [
+			"Hiking",
+			"Sports",
+			"Kayaking"
+		],
+
+		"projects" => [
+			[
+				"name" => "Project 1",
+				"description" => "Brief description of Project 1",
+				"link" => "eric_website.html",
+				"picture" => "html.webp"
+			],
+
+			[
+				"name" => "Project 2",
+				"description" => "Brief description of Project 2",
+				"link" => "Go to link",
+				"picture" => "image11.webp"
+			],
+			[
+				"name" => "Project 3",
+				"description" => "Brief description of Project 3",
+				"link" => "Go to link",
+				"picture" => "04.webp"
+			],
+		],
 	],
+	
 	[
-		"member" => "Armani Cleopatrick"
+		"member" => "Armani Cleopatrick",
+		"title" => "Software engineer",
+		"summary" => "Software Engineer at Mojang. University of Stanford Graduate. Looking to further knowledge by obtaining my Master's Degree at the University of Duke.",
+		"picture_height" => "150px",
+		"contacts" => [
+			"phone" => "5137778892",
+			"email" => "armanicleopatrickthefirst@yahoo.com",
+			"linkedin" => "https://www.linkedin.com/in/", //placeholder link, this is what is shown on the resume page, yours will likely be too large as well
+			"linkedin_link" => "https://www.linkedin.com/in/", //this is the actual link to my linkedin since the original causes issues with formatting
+			"github" => "https://github.com/armani",
+			"social" => "https://x.com/therealarmanicleo"
+		],
+
+		"experience" => [
+			[
+				"job-title" => "Senior Sofware Analyst",
+				"company" => "Mojang",
+				"date" => "April 2018-Current",
+				"description" => "Create sofwatware for the video game Minecraft. Brainstorm new ideas and potential sofware concepts that can be implemented that will please consumers",
+				"achievements_summary" => "During my time at Mojang, I have accomplished many feats and have received multiple awards including:",
+				"accomplishments" => [
+					"Mojang Programmer of the year.",
+					"Helped develop new game patch that was implement and successful.",
+					"Recently promoted to senior software analyst for dedication and creativity with programming skills."
+				],
+				"technologies" => [
+					"Windows Operating System",
+					"Powershell",
+					"java",
+					"git repositories"
+				],
+			],
+
+			[
+				"job-title" => "Sofware Engineer Intern",
+				"company" => "Nike",
+				"date" => "October 2016-March 2018",
+				"description" => "Assigned to an e-commerce team and helped imrpove software using algorithms to match users to products.",
+				"achievements_summary" => "Responsible for increase in sales for comapny through multiple accomploshments, such as:.",
+				"accomplishments" => [
+					"Presented software to CEO with other interns and received recognition for designs.",
+					"Increased sales in shoe department by 12 percent by using algorithms to tailor customers to purchases that might interest them .",
+					"Tested applications and solved issues, which reduced bugs by 4 percent."
+				],
+				"technologies" => [
+					"Windows OS",
+					"Python (Django)",
+					"SQL"
+				],
+			],
+
+			[
+				"job-title" => "Apple Associate",
+				"company" => "Apple",
+				"date" => "July 2013-October 2016",
+				"description" => "Provided customer service and information to customers looking to purchase apple products .",
+				"achievements_summary" => "Being a salesman at apple taught me a lot of quality skills and developed me professionally. It was my first real job and prepared me for my future endeavors",
+				"accomplishments" => [
+					"Received the most commission and sold the most product in Januray of 2015, August 2015, and March 2016",
+					"Recognized as employee of the month a total of 7 times during my time."
+					
+				],
+				"technologies" => [
+					"MacOS",
+					"Scanning Technology",
+					"iOS",
+					"Bluetooth"
+				],
+			],
+		],
+
+		"skills" => [
+			"main_skills" => [
+				[
+					"name" => "Python",
+					"value" => 90
+				],
+				[
+					"name" => "Java",
+					"value" => 85
+				],
+				[
+					"name" => "HTML/CSS/JSS",
+					"value" => 95
+				],
+				[
+					"name" => "Excel",
+					"value" => 85
+				],
+				[
+					"name" => "Identity and Access Management",
+					"value" => 90
+				],
+			],
+
+			"other_skills" => [
+				"Java",
+				"DevOps",
+				"SQL",
+				"C++",
+				"DHCP",
+				"Vulnerability Management",
+				"Django",
+				"Windows Powershell",
+				"Balsamiq",
+				"Linux CLI"
+			],
+		],
+		
+		"education" => [
+			[
+				"degree" => "M.S. Computer Science",
+				"institution" => "University of Duke",
+				"date" => "2022 - Current"
+			],
+			[
+				"degree" => "B.S Applied Software Engineering",
+				"institution" => "University of Stanford",
+				"date" => "2012 - 2016"
+			],
+
+		],
+	
+
+		"awards" => [
+			[
+				"award" => "Cardinal Scholarship",
+				"description" => "Scholarship awarded to those who obtain and hold a highschool GPA of 4.0, and college GPA of 3.85."
+			],
+			[
+				"award" => "Stanford Diversity Scholarship",
+				"description" => "Received by being from a diverse and cultural background while also maintaining a 3.35 GPA throughout collegiate career."
+			],
+		],
+
+		"languages" => [
+			[
+				"language" => "English",
+				"level" => "(Native)"
+			],
+			[
+				"language" => "French",
+				"level" => "(Fluent)"
+			],
+			[
+				"language" => "Spanish",
+				"level" => "(Expert)"
+			],
+		],
+
+		"interests" => [
+			"Gardening",
+			"Quilting",
+			"Gambling"
+		],
+
+		"projects" => [
+			[
+				"name" => "Project 1",
+				"description" => "Brief description of Project 1",
+				"link" => "GO to link",
+				"picture" => ""
+			],
+
+			[
+				"name" => "Project 2",
+				"description" => "Brief description of Project 2",
+				"link" => "Go to link",
+				"picture" => ""
+			],
+			[
+				"name" => "Project 3",
+				"description" => "Brief description of Project 3",
+				"link" => "Go to link",
+				"picture" => ""
+			],
+		], 
 	],
 ];
 $index=$_GET['index'];

@@ -8,7 +8,7 @@ $member_data = [
 	],
 	[
 		"member" => "Eric Turner",
-		"title" => "put something"
+		"title" => "Cyber Analyst"
 	],
 	[
 		"member" => "Armani Cleopatrick",
